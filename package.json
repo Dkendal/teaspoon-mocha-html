@@ -1,6 +1,6 @@
 {
   "name": "teaspoon-mocha-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A better html reporter for teaspoon-mocha",
   "main": "dist/index.js",
   "author": "Dylan Kendal",
@@ -9,6 +9,9 @@
   "dependencies": {
     "diff": "^3.3.0"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
