@@ -1,9 +1,20 @@
 {
   "name": "teaspoon-mocha-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better html reporter for teaspoon-mocha",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Dylan Kendal",
   "license": "MIT",
-  "repository": "git@github.com:Dkendal/teaspoon-mocha-html.git"
+  "repository": "git@github.com:Dkendal/teaspoon-mocha-html.git",
+  "dependencies": {
+    "diff": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^0.48.2",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
 }
