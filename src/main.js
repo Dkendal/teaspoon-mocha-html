@@ -43,7 +43,7 @@ window.Teaspoon.Reporters.HTML.FailureView.prototype.build = function() {
 
     const msg = document.createElement('div')
 
-    msg.appendChild(document.createTextNode(error.message, error))
+    msg.appendChild(document.createTextNode(error.message))
 
     div.appendChild(msg);
 
