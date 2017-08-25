@@ -1,0 +1,9 @@
+{
+  "name": "teaspoon-mocha-html",
+  "version": "1.0.0",
+  "description": "A better html reporter for teaspoon-mocha",
+  "main": "index.js",
+  "author": "Dylan Kendal",
+  "license": "MIT",
+  "repository": "git@github.com:Dkendal/teaspoon-mocha-html.git"
+}
