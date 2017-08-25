@@ -13,7 +13,7 @@ add
 or
 
 ```js
-import teaspoon-mocha-html
+import 'teaspoon-mocha-html';
 ```
 
 Replaces your default HTML reporter for teaspoon-mocha.
